@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            POSITIONING CSS
+        </title>
+        <style>
+            .bluebox
+            {
+             background-color: #3A5795;
+             color:white;
+             height : 100px;
+             width:auto;
+             position:fixed;
+             top:30px;
+             left:30px;
+
+ }
+
+           
+            .greenbox
+            {
+                background-color:green;
+                height : 100px;
+             width : auto;
+             position:relative;
+             top:20px;
+             left:20px;
+     /*        z-index:1;             this index is used to  show at the top of the value show     */
+            } 
+
+            .yellowbox
+            {
+                background-color:rgb(222,224,85);
+                height : 100px;
+             width: auto;
+             position:absolute;
+             top:40px;
+             left:40px;
+            } 
+
+        </style>
+    </head>
+    <body>
+        <div class="bluebox">
+           <p> facebook.</p>
+        </div>
+        <div class="greenbox">
+            <p> Apple.</p>
+         </div>
+         <div class="yellowbox">
+            <p> Microsoft.</p>
+         </div>
+    </body>
+</html>
