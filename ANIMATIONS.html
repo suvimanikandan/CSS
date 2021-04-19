@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            DISPLAY CSS
+        </title>
+        <style>
+            .bluebox
+            {
+             background-color: #3A5795;
+             color:white;
+             height : 100px;
+             width:100px;
+             position:relative;
+             -webkit-animations: myanimation 3s;
+            }  
+            /*
+            @-webkit-keyframes myanimation {
+                from{background:green}
+                to{background:#3A5795}
+            }
+*/
+@-webkit-keyframes myanimation{
+         0% {background:red; left:0px;right:0px}
+         25%  {background:yellow; left:200px;right:0px}
+          50% {background:blue; left:200px;right:200px}
+         75%  {background:green; left:0px;right:200px}
+        100%   {background:red; left:0px;right:0px}
+
+      }
+
+  
+
+
+           
+            .greenbox
+            {
+                background-color:green;
+                height : 100px;
+             width : auto;
+            } 
+
+            .yellowbox
+            {
+                background-color:rgb(222,224,85);
+                height : 100px;
+             width: auto;
+            } 
+            .great{
+                background-color:#00ff00;
+                display:block;
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="bluebox">
+           <p> facebook </p>
+        </div>
+        <div class="greenbox">
+            <p> Apple.</p>
+         </div>
+         <div class="yellowbox">
+            <p> Microsoft.</p>
+         </div>
+    </body>
+</html>
